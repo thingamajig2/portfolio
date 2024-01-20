@@ -1,0 +1,63 @@
+// Styles for the form
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+  
+    // Styles for form inputs
+    label {
+      display: block;
+      margin-bottom: 5px;
+      margin-top: 5px;
+    }
+  
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border: none;
+      outline: none;
+      border-bottom: 2px solid black;
+      border-left: 2px solid black;
+    }
+  
+    input[type="submit"] {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #0050bf;
+      }
+    }
+  
+    // Styles for error messages in <span> elements
+    span {
+      font-size: 12px;
+      color: red;
+    }
+    button{
+      border: 1px solidk;
+      outline: none;
+      border-radius: 15px;
+      padding: 12px 35px;
+      background-image: linear-gradient(black, white);
+      color: white;
+      font-weight: bold;
+      transition: all 0.5s ease-in-out;
+      box-shadow: 3px 2px lightgray;
+      cursor: pointer;
+      &:hover{
+        background-image: linear-gradient(white, black);
+      }
+    }
+  }
+  
+  
+
+ 
